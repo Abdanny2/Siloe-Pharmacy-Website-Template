@@ -1,0 +1,219 @@
+﻿body 
+{    
+	background: rgb(212,212,212);   
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	color: black; 
+} 
+
+#bloc_page
+{
+	width: 1000px;
+	margin: auto; 
+} 
+
+section h1, footer h1, nav a 
+{    
+	font-family: Dayrom, serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+header 
+{    
+	background: url("advise.jpg") no-repeat top right, url("back2.jpg") no-repeat ; 
+	border: 2px white outset;
+	border-radius: 10px;
+	box-shadow: 0 5px 5px black;
+	margin-bottom: 50px;
+} 
+
+#titre_principal 
+{    
+	display: inline-block; 
+}
+
+header h1 
+{  
+	font-family: 'BallparkWeiner', serif;
+	font-size: 2.5em;    
+	font-weight: normal; 
+} 
+
+#logo, header #vodip
+{    
+	display: inline-block;   
+	margin: 0px 10px 0px 0px; 
+} 
+
+header h2 
+{    
+	position: relative;
+	bottom: 25px;
+	font-family: Comic sans MS, Arial, serif;    
+	font-size: 1.5em;
+	font-style: italic;
+	text-decoration: underline;    
+	margin: 0 0 0 0;    
+	font-weight: normal; 
+}
+
+
+nav 
+{    
+	display: inline-block;    
+	width: 600px;    
+	text-align: left; 
+} 
+
+nav ul 
+{    
+	list-style-type: none; 
+} 
+
+nav li 
+{    
+	display: inline-block;    
+	margin-right: 0px; 
+	border: 3px green outset;
+} 
+
+nav a 
+{    
+	font-size: 1.2em;    
+	color: rgb(0,159,80);    
+	padding-bottom: 3px;    
+	text-decoration: none;
+	margin: 0 20px 0px 10px; 
+} 
+
+nav li:hover 
+{       
+	display: inline-block;
+	margin-right: 0px;
+	border: 3px green inset; 
+}
+
+
+
+/* Corps */ 
+
+article, aside 
+{    
+	display: inline-block;    
+	vertical-align: top;    
+	text-align: justify; 
+}
+
+article 
+{    
+	background: url("doc.jpg") no-repeat;
+	width: 625px;  
+	height:450px; 
+	box-shadow: 0px 2px 5px #1c1a19;
+	margin-right: 20px; 
+	padding: 20px;
+	border-radius: 10px;
+} 
+
+article h1
+{
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Comic sans MS;
+	text-decoration: underline;
+}
+article h2
+{
+	font-size:1.5em;
+	font-family: Comic sans MS;
+	position: relative;
+	bottom: 15px;
+	font-style: italic;
+}
+
+article p 
+{    
+	font-size: 1em;
+        font-family: time new roman; 
+} 
+
+aside 
+{    
+	position: relative;    
+	width: 235px;    
+	background: rgb(4,255,67);    
+	box-shadow: 0px 2px 5px #1c1a19;    
+	border-radius: 5px;    
+	padding: 10px;    
+	color: black;    
+	font-size: 0.9em; 
+} 
+
+#fleche_bulle 
+{    
+	position: absolute;    
+	top: 100px;    
+	left: -12px; 
+} 
+
+
+/* Footer */ 
+
+footer 
+{    
+	background:  url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;
+   	padding-top: 25px; 
+} 
+
+footer p, footer ul 
+{    
+	font-size: 0.8em; 
+} 
+
+footer h1 
+{    
+	font-size: 1.1em; 
+} 
+
+#mes_photos, #social 
+{    
+	display: inline-block;    
+	vertical-align: top;
+} 
+
+
+#mes_photos 
+{    
+	width: 40%; 
+} 
+
+#social 
+{    
+	position: relative;
+	left: 300px;
+	width: 40%; 
+} 
+
+#mes_photos img 
+{    
+	border: 2px solid #181818;
+	width:20%;
+	margin-right: 2px; 
+} 
+
+#social ul 
+{    
+	display: inline-block;    
+	vertical-align: top;    
+	margin-top: 0;    
+	width: 48%;    
+	list-style-image: url('images/ico_liensexterne.png');    
+	padding-left: 2px; 
+} 
+
+#mes_amis a 
+{    
+	text-decoration: underline;    
+	color: #760001; 
+}
+
